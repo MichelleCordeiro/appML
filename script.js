@@ -82,7 +82,7 @@ var available_models = {
     model: null,
   },
   "My YOLO": {
-    name: "My yolo",
+    name: "My YOLOv8",
     version: 2,
     confidence: 0.3,
     video:
@@ -108,7 +108,7 @@ for (var item in available_models) {
 }
 
 var current_model_name = "alphabet_card-2/2";
-const API_KEY = "h4XBkNU3t1OFCIgIdqY9";
+const API_KEY = "rf_lh40S0maRSbO8OP7NwPHRumPvZg2";
 const DETECT_API_KEY = "4l5zOVomQmkAqlTJPVKN";
 const CAMERA_ACCESS_URL =
   "https://uploads-ssl.webflow.com/5f6bc60e665f54545a1e52a5/63d40cd1de273045d359cf9a_camera-access2.png";
