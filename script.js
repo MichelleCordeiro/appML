@@ -81,8 +81,8 @@ var available_models = {
     ],
     model: null,
   },
-  "My YOLO": {
-    name: "My YOLOv8",
+  "My YOLOv8": {
+    name: "alphabet_card-2/2",
     version: 2,
     confidence: 0.3,
     video:
