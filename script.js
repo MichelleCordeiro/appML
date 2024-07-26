@@ -81,6 +81,20 @@ var available_models = {
     ],
     model: null,
   },
+  "My YOLO": {
+    name: "My yolo",
+    version: 2,
+    confidence: 0.3,
+    video:
+      "https://media.roboflow.com/homepage/Retail/Screen_Recording_2023-02-15_at_10.29.04_AM.mov?ik-sdk-version=javascript-1.4.3&updatedAt=1676479650130",
+    imageGrid: [
+      "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhutbjzjhUOmcFjpGGljrLgyRcvA09FehJdNftelP6kFhu1CDpl0Ske0cnJqsxroefh7a-vhOdNaGxYnseKrtPlfYb1IKCAd8CR_jyP8Ub4H3v8ZGUxYjRNTaTsCgia_tWYkIOqqSim-cwx/s320/J6.jpg",
+      "https://eslflashcards-media.s3.ca-central-1.amazonaws.com/wp-content/uploads/2020/06/25141016/simple-alphabet-small.jpg",
+      "https://www.totcards.com/img/preview-free-printable-abc-flashcards-lowercase.png",
+      "https://www.soescola.com/wp-content/uploads/2022/01/Atividades-Silabas-Simples-e-Complexas-18.jpg",
+    ],
+    model: null,
+  },
 };
 
 // populate model select
@@ -93,7 +107,7 @@ for (var item in available_models) {
   model_select.add(option);
 }
 
-var current_model_name = "alphabet_card-2";
+var current_model_name = "alphabet_card-2/2";
 const API_KEY = "h4XBkNU3t1OFCIgIdqY9";
 const DETECT_API_KEY = "4l5zOVomQmkAqlTJPVKN";
 const CAMERA_ACCESS_URL =
